@@ -1,166 +1,166 @@
 /* ===================== Общие стили ======================= */
 .container {
-    max-width: 1770px;
-    margin: 0 auto;
-    padding: 0 15px
+  max-width: 1770px;
+  margin: 0 auto;
+  padding: 0 15px
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    box-sizing: border-box;
-    background-color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  box-sizing: border-box;
+  background-color: #FFF;
 }
 
 a {
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
 a:focus {
-    outline: 2px solid #FF9900; 
+  outline: 2px solid #FF9900;
 }
 
 ul, li, ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .title {
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 59px;
-    color: #333333;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #333333;
 }
 
 /* --------------- Общие стили для кнопок ------------------ */
 .btn-org-big {
-    display: inline-block;
-    padding: 24px 36px;
-    background-color: #f90;
-    color: #fff;
-    font-weight: 700;
-    font-size: 23px;
+  display: inline-block;
+  padding: 24px 36px;
+  background-color: #f90;
+  color: #fff;
+  font-weight: 700;
+  font-size: 23px;
 }
 
 .btn-org-small {
-    display: inline-block;
-    padding: 20px 38px;
-    background-color: #f90;
-    color: #fff;
-    font-weight: 700;
-    font-size: 16px;
+  display: inline-block;
+  padding: 20px 38px;
+  background-color: #f90;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .btn-org-big:hover,
 .btn-org-big:focus,
 .btn-org-small:hover,
 .btn-org-small:focus {
-    background-color: #9b5d00;
+  background-color: #9b5d00;
 }
 
 .btn-org-big:active,
 .btn-org-small:active {
-    background-color: #E1670E;
+  background-color: #E1670E;
 }
 
 .btn-clear {
-    display: inline-block;
-    padding: 17px 35px;
-    background-color: transparent;
-    color: #fff;
-    font-weight: 700;
-    font-size: 16px;
-    border: 3px solid #f90;
+  display: inline-block;
+  padding: 17px 35px;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  border: 3px solid #f90;
 }
 
 .btn-clear:hover,
 .btn-clear:focus {
-    background-color: rgba(255, 153, 0, 0.7);
-    border: none;
-    padding: 20px 38px;
+  background-color: rgba(255, 153, 0, 0.7);
+  border: none;
+  padding: 20px 38px;
 }
 
 .btn-clear:active {
-    background-color: #E1670E;
-    border: none;
-    padding: 20px 38px
+  background-color: #E1670E;
+  border: none;
+  padding: 20px 38px
 }
 
 .btn-gray {
-    display: inline-block;
-    padding: 19px 38px;
-    background-color: transparent;
-    color: #333;
-    font-weight: 400;
-    font-size: 16px;
-    border: 1px solid #333;
+  display: inline-block;
+  padding: 19px 38px;
+  background-color: transparent;
+  color: #333;
+  font-weight: 400;
+  font-size: 16px;
+  border: 1px solid #333;
 }
 
 .btn-gray:hover {
-    background-color: #666;
-    color: #fff;
-    border: none;
-    padding: 20px 39px;
+  background-color: #666;
+  color: #fff;
+  border: none;
+  padding: 20px 39px;
 }
 
 .btn-gray:active {
-    background-color: #000000;
-    color: #fff;
-    border: none;
-    padding: 20px 39px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 20px 39px;
 }
 
 
 /* ======================== HEADE ========================== */
 .header {
-    background: #FFFFFF;
-    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+  background: #FFFFFF;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
 }
 
 /* .container {} */
 
 .header-wrap {
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-grow: 2;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 2;
 }
 
 /* .header-logo {} */
 
 .header-nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header-nav-list {
-    display: flex;
+  display: flex;
 }
 
 .header-nav-item {
-    position: relative;
-    font-size: 18px;
-    font-weight: 600;
-    color: #333333;
-    margin-right: 85px;
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
+  margin-right: 85px;
 }
 
 .header-nav-item:hover::after {
-    position: absolute;
-    content: "";
-    left: 0;
-    bottom: -7px;
-    width: 100%;
-    height: 2px;
-    background-color: #FF9900;
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -7px;
+  width: 100%;
+  height: 2px;
+  background-color: #FF9900;
 }
 
 
@@ -169,10 +169,11 @@ h1, h2, h3, h4, h5, h6, p {
 /* .header-search {} */
 
 .header-search:hover .header-search-icon rect {
-    fill:#FF9900;
+  fill: #FF9900;
 }
+
 .header-search:hover .header-search-icon path {
-    stroke: #FF9900;
+  stroke: #FF9900;
 }
 
 /* ===================== DESCRIPTOR ======================== */
@@ -180,36 +181,36 @@ h1, h2, h3, h4, h5, h6, p {
 /* .desc {} */
 
 .desc-container {
-    /* min-height: 620px; */
-    background-image: url('../img/bg-desc.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
-    background-color:#333333;
-    margin-bottom: 100px;
+  /* min-height: 620px; */
+  background-image: url('../img/bg-desc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-color: #333333;
+  margin-bottom: 100px;
 }
 
 .desc-wrap {
-    width: 840px;
-    padding-top: 100px;
-    padding-left: 80px;
-    padding-bottom: 100px;
+  width: 840px;
+  padding-top: 100px;
+  padding-left: 80px;
+  padding-bottom: 100px;
 }
 
 .desc-title {
-    font-weight: 800;
-    font-size: 70px;
-    line-height: 85px;
-    color: #fff;
-    margin-bottom: 24px;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 85px;
+  color: #fff;
+  margin-bottom: 24px;
 }
 
 .desc-subtitle {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    color: #FFFFFF;
-    margin-bottom: 90px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-bottom: 90px;
 }
 
 /* .desc-slider {} */
@@ -219,69 +220,73 @@ h1, h2, h3, h4, h5, h6, p {
 /* ======================= О НАС =========================== */
 
 .about {}
+
 .container {}
 
 .about-container {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .title {}
+
 .about-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    margin-top: 22px;
-    margin-right: 535px;
-    margin-bottom: 53px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  margin-top: 22px;
+  margin-right: 535px;
+  margin-bottom: 53px;
 }
 
 .about-wrap {
-    display: flex;
+  display: flex;
 }
 
 .about-img {
-    position: relative;
-    background: #666 url('../img/about-img.jpg') no-repeat center center;
-    width: 868px;
-    height: 622px;
-    margin-right: 32px;
+  position: relative;
+  background: #666 url('../img/about-img.jpg') no-repeat center center;
+  width: 868px;
+  height: 622px;
+  margin-right: 32px;
 }
 
 .about-img-info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.486);
-    padding: 50px;
-    box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.486);
+  padding: 50px;
+  box-sizing: border-box;
 }
 
 .about-img-info-text {
-    color: #FFF;
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 2;
-    width: 454px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 2;
+  width: 454px;
 }
 
 .about-img-info-btn {}
 
 .about-right {
-    max-width: 870px;
+  max-width: 870px;
 }
+
 .about-right-item {
-    border: 1px solid #cacaca;
-    padding: 65px 60px 65px;
+  border: 1px solid #cacaca;
+  padding: 65px 60px 65px;
 }
 
 .about-right-item:first-child {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .about-right-title {}
+
 .about-right-text {}
 
 /* ================== КАК МЫ РАБОТАЕМ ====================== */
