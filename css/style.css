@@ -21,21 +21,13 @@ a:focus {
     outline: 2px solid #FF9900;
 }
 
-ul,
-li,
-ol {
+ul,li,ol {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1,h2,h3,h4,h5,h6,p {
     margin: 0;
     padding: 0;
 }
@@ -315,6 +307,110 @@ p {
 
 /* ================== КАК МЫ РАБОТАЕМ ====================== */
 
+/* .work {} */
+
+/* .container {} */
+
+.work-container {
+    margin-bottom: 100px;
+}
+
+/* .title {} */
+
+.work-step {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+.work-step-item {
+    margin-right: 50px;
+}
+
+.work-step-item:hover {
+    color: #e1670e;
+    cursor: pointer;
+}
+
+.work-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-left {
+    max-width: 760px;
+}
+
+.work-left-title {
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.work-left-text {
+    font-size: 16px;
+    line-height: 2;
+    text-align: left;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.work-left-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 354px;
+}
+
+.work-right {
+    max-width: 870px;
+}
+
+.work-img {}
+
 /* =============== ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ ================ */
+
+/* .question {} */
+
+/* .container {} */
+
+.question-container {
+    margin-bottom: 100px;
+}
+
+.title {}
+
+.question-list {
+    margin-top: 32px;
+}
+
+.question-item {
+    display: flex;
+    border-top: 1px solid #cacaca;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question-item:last-child{
+    border-bottom: 1px solid #cacaca;
+}
+
+.question-item-text {
+    padding: 40px 0;
+    
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: left;
+    color: #333;
+}
+
+.question-item-text-gray {
+    color: #cacaca;
+}
+
+.question-item-btn:hover {
+    cursor: pointer;
+}
 
 /* ====================== FOOTER =========================== */
