@@ -285,17 +285,33 @@ p {
 }
 
 .about-right-item {
+    display: flex;
+    align-items: start;
     border: 1px solid #cacaca;
-    padding: 65px 60px 65px;
+    padding: 65px 100px 65px 60px;
 }
 
 .about-right-item:first-child {
     margin-bottom: 32px;
 }
 
-.about-right-title {}
+.about-right-img {
+    margin-right: 50px;
+}
 
-.about-right-text {}
+.about-right-title {
+    font-weight: bold;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.about-right-text {
+    font-size: 16px;
+    line-height: 2;
+    text-align: left;
+    color: #333;
+}
 
 /* ================== КАК МЫ РАБОТАЕМ ====================== */
 
