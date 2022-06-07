@@ -227,15 +227,15 @@ p {
 
 /* ======================= О НАС =========================== */
 
-.about {}
+/* .about {} */
 
-.container {}
+/* .container {} */
 
 .about-container {
     margin-bottom: 100px;
 }
 
-.title {}
+/* .title {} */
 
 .about-text {
     font-weight: 400;
@@ -278,7 +278,7 @@ p {
     width: 454px;
 }
 
-.about-img-info-btn {}
+/* .about-img-info-btn {} */
 
 .about-right {
     max-width: 870px;
